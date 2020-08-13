@@ -13,6 +13,7 @@
 		034F013424E532A200A92262 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034F013224E532A200A92262 /* Main.storyboard */; };
 		034F013624E532A300A92262 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034F013524E532A300A92262 /* Assets.xcassets */; };
 		034F013924E532A300A92262 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034F013724E532A300A92262 /* LaunchScreen.storyboard */; };
+		034F014124E53CFC00A92262 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F014024E53CFC00A92262 /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		034F013524E532A300A92262 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		034F013824E532A300A92262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		034F013A24E532A300A92262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		034F014024E53CFC00A92262 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,40 @@
 		034F012B24E532A200A92262 /* BMI Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				034F014424E53D5F00A92262 /* Controllers */,
+				034F014324E53D5800A92262 /* Views */,
+				034F014224E53D5100A92262 /* Models */,
 				034F012C24E532A200A92262 /* AppDelegate.swift */,
 				034F012E24E532A200A92262 /* SceneDelegate.swift */,
-				034F013024E532A200A92262 /* ViewController.swift */,
-				034F013224E532A200A92262 /* Main.storyboard */,
 				034F013524E532A300A92262 /* Assets.xcassets */,
 				034F013724E532A300A92262 /* LaunchScreen.storyboard */,
 				034F013A24E532A300A92262 /* Info.plist */,
+				034F014024E53CFC00A92262 /* CustomButton.swift */,
 			);
 			path = "BMI Calculator";
+			sourceTree = "<group>";
+		};
+		034F014224E53D5100A92262 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		034F014324E53D5800A92262 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				034F013224E532A200A92262 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		034F014424E53D5F00A92262 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				034F013024E532A200A92262 /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				034F014124E53CFC00A92262 /* CustomButton.swift in Sources */,
 				034F013124E532A200A92262 /* ViewController.swift in Sources */,
 				034F012D24E532A200A92262 /* AppDelegate.swift in Sources */,
 				034F012F24E532A200A92262 /* SceneDelegate.swift in Sources */,
